@@ -5,22 +5,34 @@
     <title>謝佳伶的履歷</title>
     <style>
         body { font-family: sans-serif; background: #f4f4f4; padding: 50px; line-height: 1.6; }
-        .card { background: white; max-width: 600px; margin: auto; padding: 40px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-        h1 { color: #8c7851; border-bottom: 2px solid #8c7851; }
-        .info { color: #666; font-weight: bold; }
+        .card { background: white; max-width: 600px; margin: auto; padding: 40px; box-shadow: 0 0 10px rgba(0,0,0,0.1); text-align: center; }
+        h1 { color: #8c7851; border-bottom: 2px solid #8c7851; display: inline-block; padding-bottom: 10px; }
+        .info { color: #666; font-weight: bold; margin-top: 20px; }
+        ul { list-style: none; padding: 0; text-align: left; display: inline-block; }
+        li { margin-bottom: 10px; }
+        li::before { content: "• "; color: #8c7851; font-weight: bold; }
     </style>
 </head>
 <body>
+
     <div class="card">
+        <img src="photo.jpg" alt="謝佳伶" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 20px; border: 3px solid #8c7851;">
+        
+        <br>
         <h1>謝佳伶</h1>
+        
         <p class="info">亞洲大學 | 學號：AU114055027</p>
         <p>目前就讀室內設計系，擅長空間規劃與美學設計。</p>
-        <h3>專業技能</h3>
-        <ul>
-            <li>AutoCAD / SketchUp</li>
-            <li>V-Ray 渲染</li>
-            <li>Adobe Photoshop</li>
-        </ul>
+        
+        <div style="text-align: left; max-width: 300px; margin: auto;">
+            <h3>專業技能</h3>
+            <ul>
+                <li>AutoCAD / SketchUp</li>
+                <li>V-Ray 渲染</li>
+                <li>Adobe Photoshop</li>
+            </ul>
+        </div>
     </div>
+
 </body>
 </html>
